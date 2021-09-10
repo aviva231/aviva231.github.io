@@ -1,0 +1,65 @@
+HTML CSSResult Skip Results Iframe
+EDIT ON
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+
+body {
+  background-color: #000;
+}
+
+p {
+  margin: 40px auto;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 70px;
+  font-weight: bold;
+  text-align: center;
+  letter-spacing: 5px;
+}
+
+#shadow1 {
+  color: #77DDE7;
+  text-shadow: 0 0 2px #30D5C8, 
+      -4px 5px 0 #AFEEEE, 
+      -7px 11px 0 #9ACEEB,
+      -12px 17px 0 #9ACEEB,
+      -17px 23px 0 #80DAEB;
+}
+
+#shadow2 {
+  color: #F3A505;
+  text-shadow: 0 0 2px hsl(106, 18%, 45%), 
+      -4px 5px 0 #B57900, 
+      -7px 11px 0 #F3A505,
+      -12px 17px 0 #FFCF48,
+      -17px 23px 0 #FFDB58;
+}
+p {
+  transform: skew(40deg)rotate(-10deg)rotateX(50deg)translate3d(0, 0, 0);
+  -webkit-perspective: 100px;
+  perspective: 100px;
+}
+
+p::before {
+  text-shadow: 0 2px 3px #747474, 
+      -3px 3px 1px #222, 
+      -6px 5px 1px #474747, 
+      -9px 7px 1px #747474,
+      -12px 9px 1px #565656,
+      -15px 11px 1px #343434,
+      -22px 15px 1px #171717;
+}
+
+p:before,
+p:after {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  content: attr(data-text)
+}
+
+p:after {
+  color: #edc;
+}
+
+
+Resources1× 0.5× 0.25×Rerun
